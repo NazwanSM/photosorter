@@ -49,7 +49,7 @@ A modern, desktop photo organization application built with **Tauri**, **React**
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/photosorter.git
+   git clone https://github.com/NazwanSM/photosorter.git
    cd photosorter
    ```
 
@@ -174,7 +174,7 @@ We welcome contributions! Here's how to get started:
 ### **Development Setup**
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/photosorter.git
+git clone https://github.com/NazwanSM/photosorter.git
 
 # Install dependencies
 npm install
@@ -202,8 +202,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/photosorter/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/photosorter/discussions)
+- **Issues**: [GitHub Issues](https://github.com/NazwanSM/photosorter/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/NazwanSM/photosorter/discussions)
 - **Email**: your.email@example.com
 
 ---
@@ -212,8 +212,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Made with ❤️ for photographers and digital organizers**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/photosorter?style=social)](https://github.com/yourusername/photosorter/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/photosorter?style=social)](https://github.com/yourusername/photosorter/network/members)
-[![GitHub license](https://img.shields.io/github/license/yourusername/photosorter)](https://github.com/yourusername/photosorter/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/NazwanSM/photosorter?style=social)](https://github.com/NazwanSM/photosorter/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/NazwanSM/photosorter?style=social)](https://github.com/NazwanSM/photosorter/network/members)
+[![GitHub license](https://img.shields.io/github/license/NazwanSM/photosorter)](https://github.com/NazwanSM/photosorter/blob/main/LICENSE)
 
 </div>
