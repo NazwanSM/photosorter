@@ -4,17 +4,29 @@ Modern desktop photo sorting application built with Tauri, React & Rust.
 
 ## 🚀 Quick Start
 
-### Option 1: Install (Recommended)
-**Double-click:** `PhotoSorter_0.1.0_x64-setup.exe`
+### Option 1: Install with WebView2 (Recommended) ⭐
+**Double-click:** `PhotoSorter_0.1.0_x64-setup-WebView2.exe`
+- **AUTO-INSTALLS WebView2** (fixes "WebView2Loader.dll" error)
 - Full installation with Start Menu shortcuts
 - Automatic updates support
 - Proper Windows integration
 
-### Option 2: Portable Version
+### Option 2: Standard Install
+**Double-click:** `PhotoSorter_0.1.0_x64-setup.exe`
+- Full installation with Start Menu shortcuts
+- **Requires manual WebView2 install** if missing
+- Automatic updates support
+
+### Option 3: Portable Version
 **Double-click:** `PhotoSorter-Portable.exe`
 - No installation required
+- **Requires WebView2 to be installed separately**
 - Run from any folder
 - Perfect for USB drives
+
+> ⚠️ **Important**: If you get **"WebView2Loader.dll not found"** error:
+> - Use Option 1 (auto-installs WebView2)
+> - OR install WebView2: `winget install Microsoft.EdgeWebView2Runtime`
 
 ## ⌨️ Keyboard Shortcuts
 

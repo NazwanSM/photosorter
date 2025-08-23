@@ -41,11 +41,26 @@ A modern, desktop photo organization application built with **Tauri**, **React**
 ## 🚀 Quick Start
 
 ### Prerequisites
+
+#### For Users (Download & Run)
+- **Windows 10/11** (x64)
+- **Microsoft Edge WebView2 Runtime** (auto-installed with installer)
+
+#### For Developers
 - **Node.js** (v16 or higher)
 - **Rust** (latest stable)
 - **Tauri CLI**: `npm install -g @tauri-apps/cli`
 
 ### Installation
+
+#### Option 1: Download Pre-built (Recommended)
+1. **Download** from [Releases](https://github.com/NazwanSM/photosorter/releases)
+2. **Run installer**: `PhotoSorter_0.1.0_x64-setup.exe` (auto-installs WebView2)
+3. **Or use portable**: `PhotoSorter-Portable.exe` (requires manual WebView2 install)
+
+> ⚠️ **WebView2 Required**: If you get "WebView2Loader.dll not found" error, see [WebView2 Installation Guide](WEBVIEW2_INSTALL.md)
+
+#### Option 2: Build from Source
 
 1. **Clone the repository**
    ```bash
