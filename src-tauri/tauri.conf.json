@@ -27,10 +27,13 @@
       }
     },
     "bundle": {
-      "active": false,
+      "active": true,
       "identifier": "com.nazwan.photosorter",
       "targets": [
         "nsis"
+      ],
+      "icon": [
+        "icons/icon.ico"
       ]
     },
     "security": {
