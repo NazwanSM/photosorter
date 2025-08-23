@@ -1,0 +1,20 @@
+[package]
+name = "photosorter"
+version = "0.1.0"
+description = "PhotoSorter Tauri App"
+authors = ["You"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "1", features = [] }
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri = { version = "1", features = [ "fs-read-dir", "dialog-open", "fs-read-file", "protocol-asset"] }
+image = "0.25"
+anyhow = "1"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
