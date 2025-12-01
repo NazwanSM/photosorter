@@ -2,7 +2,7 @@
 
 A modern, high-performance desktop photo organization application built with **Tauri**, **React**, and **Rust**. Efficiently sort your photos into Landscape, Portrait, Favorite, and Reject categories with lightning-fast keyboard shortcuts, zoom capabilities, EXIF data display, and a beautiful dark theme interface.
 
-![PhotoSorter Demo](https://via.placeholder.com/800x450/0f0f23/6366f1?text=PhotoSorter+Desktop+App)
+![PhotoSorter Demo](https://github.com/NazwanSM/photosorter/blob/main/src-tauri/Demo.png)
 
 ## ✨ Features
 
