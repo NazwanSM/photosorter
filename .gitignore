@@ -81,3 +81,7 @@ Thumbs.db
 
 # Windows
 imageres.dll
+
+# Large release files (use GitHub Releases instead)
+releases/*.exe
+releases/*.msi

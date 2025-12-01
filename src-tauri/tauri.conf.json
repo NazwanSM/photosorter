@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "PhotoSorter",
-    "version": "0.1.0"
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -24,20 +24,39 @@
       "protocol": {
         "asset": true,
         "assetScope": ["**"]
+      },
+      "path": {
+        "all": true
       }
     },
     "bundle": {
       "active": true,
       "identifier": "com.nazwan.photosorter",
-      "targets": [
-        "nsis"
-      ],
+      "targets": ["nsis", "msi"],
       "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
         "icons/icon.ico"
       ],
+      "resources": [],
+      "externalBin": [],
+      "shortDescription": "A fast photo sorting application",
+      "longDescription": "PhotoSorter helps you quickly organize photos into Landscape, Portrait, and Reject folders using keyboard shortcuts.",
+      "category": "Utility",
+      "copyright": "Copyright © 2024 Nazwan",
       "windows": {
         "webviewInstallMode": {
-          "type": "downloadBootstrapper"
+          "type": "offlineInstaller"
+        },
+        "wix": null,
+        "nsis": {
+          "installerIcon": "icons/icon.ico",
+          "headerImage": null,
+          "sidebarImage": null,
+          "license": null,
+          "installMode": "currentUser"
         }
       }
     },
@@ -49,8 +68,11 @@
         "title": "PhotoSorter",
         "fullscreen": false,
         "resizable": true,
-        "width": 1200,
-        "height": 800
+        "width": 1400,
+        "height": 900,
+        "minWidth": 1000,
+        "minHeight": 700,
+        "center": true
       }
     ]
   }

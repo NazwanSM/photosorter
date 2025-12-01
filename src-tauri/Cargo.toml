@@ -11,10 +11,33 @@ tauri-build = { version = "1", features = [] }
 [dependencies]
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-tauri = { version = "1", features = [ "fs-read-dir", "dialog-open", "fs-read-file", "protocol-asset"] }
-image = "0.25"
+tauri = { version = "1", features = [ "path-all", "fs-read-dir", "dialog-open", "fs-read-file", "protocol-asset"] }
+image = { version = "0.25", default-features = false, features = ["jpeg", "png", "webp", "tiff", "bmp"] }
 anyhow = "1"
+rayon = "1.10"
+imagesize = "0.13"
+walkdir = "2"
+parking_lot = "0.12"
+kamadak-exif = "0.5"
+chrono = "0.4"
 
 [features]
 default = ["custom-protocol"]
 custom-protocol = ["tauri/custom-protocol"]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+incremental = false
+
+[profile.dev]
+opt-level = 1
+incremental = true
+
+[profile.release-debug]
+inherits = "release"
+strip = false
+debug = true
